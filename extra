@@ -1,0 +1,48 @@
+//extensions///
+vscode-icons
+tabnine
+githistory
+gitlens
+spellcheck
+
+Add Extension to Chrome
+> https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh
+
+> github account (create) (https://github.com/)
+> gitbsh (install) (https://git-scm.com/downloads)
+> Follow (https://github.com/Aakashdeveloper)
+
+
+
+
+(get) cityname >           https://zomatoajulypi.herokuapp.com/location
+(get) restwrtcity >        https://zomatoajulypi.herokuapp.com/restaurant?stateId=1
+(get) quickSearch>         https://zomatoajulypi.herokuapp.com/quicksearch
+
+
+(get) onbasisofMeal >      https://zomatoajulypi.herokuapp.com/restaurant?mealtype_id=
+(get) cuisinefilter >      https://zomatoajulypi.herokuapp.com/filter/4?cuisine=1
+(get) costfilter >         https://zomatoajulypi.herokuapp.com/filter/1?hcost=1000&lcost=500
+
+(get) restdetails >        http://zomatoajulypi.herokuapp.com/details/1
+
+
+/////databinding
+One Way
+> Data Binding {{}}
+> Property Binding []
+> Event Binding ()
+Two Way
+> Two Way [()]
+
+
+
+package.json > angular.json > main.ts> app.module.ts > app.component.ts
+                    ||  Provide the html with binded JS
+                index.html   (Brower will only pick index.html)
+
+////////Structural Directive/////
+*ngFor
+*ngIf
+
+Pipe > Run Time data manupulation
