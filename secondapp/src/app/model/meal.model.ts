@@ -4,5 +4,5 @@ export interface IMeal {
     mealtype: string,
     content: string,
     meal_image: string,
-    cost: number,
+    // cost: number,
 }

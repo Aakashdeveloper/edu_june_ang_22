@@ -12,12 +12,12 @@
             </div>
             <div class="tileComponent2">
                 <div class="componentHeading">
-                    <a href="./listing.html">{{meal.mealtype|lowercase}}</a>
+                    <a [routerLink]="['/listing',meal.mealtype_id]">{{meal.mealtype|myupper:'upper'}}</a>
                 </div>
                 <div class="componentSubHeading">
                     {{meal.content}}
                 </div>
-                <p>{{meal.cost|currency:"INR"}}</p>
+                <!-- <p>{{meal.cost|currency:"INR"}}</p> -->
             </div>
         </div>
     </div>

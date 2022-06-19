@@ -3,7 +3,8 @@ footer{
     height:120px;
     width:100%;
     background:#3b2632;
-    color:white
+    color:white;
+    display:inline-block;
     /* border:5px double orange */
 }
 p{

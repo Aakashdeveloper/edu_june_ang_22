@@ -6,13 +6,17 @@
        {{title}}
     </div>
     <div id="dropdown">
-        <select>
-            <option>Delhi</option>
-            <option>Mumbai</option>
+        <select (change) = "handleCity($event)">
+            <option>----SELECT YOUR CITY----</option>
+            <option *ngFor="let loc of locations" [value]="loc.state_id">
+                {{loc.state}}
+            </option>
         </select>
         <select id="restaurants">
-            <option>Ama Cafe</option>
-            <option>Wow Momos</option>
+            <option>----SELECT RESTAURANTS----</option>
+            <option *ngFor="let rest of restaurants">
+                {{rest.restaurant_name}} - {{rest.address}}
+            </option>
         </select>
     </div>
 </div>

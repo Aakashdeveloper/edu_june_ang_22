@@ -46,3 +46,34 @@ package.json > angular.json > main.ts> app.module.ts > app.component.ts
 *ngIf
 
 Pipe > Run Time data manupulation
+
+
+Module > NgModule
+component > Component
+service> Injectable
+pipe> pipe, pipeTransform
+routing > NgModule
+
+//old way
+
+var a = 10
+var b = "my age is "+a
+"my age is 10"
+
+
+//new Way
+var a = 10
+var b = `my age is ${a}`
+"my age is 10"
+
+params
+> Value after / in url
+> it is complusory to define in routing
+> Use for small values
+
+queryparams
+> Value after ?
+> No Need to define
+> Use for multiple values
+
+https://raw.githubusercontent.com/Aakashdeveloper/Aakashdeveloper/master/README.md
