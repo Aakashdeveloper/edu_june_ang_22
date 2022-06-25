@@ -1,0 +1,51 @@
+import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http'; 
+import { FormsModule } from '@angular/forms';
+
+import { AppRoutingModule } from './app-routing.module';
+import { AppComponent } from './app.component';
+import { FooterComponent } from './Footer/footer.componet';
+import { HeaderComponent } from './Header/header.component';
+import { HomeComponent } from './Home/home.component';
+import { SearchComponent } from './Home/search.component';
+import { QuickSearchComponent } from './Home/quick-search.component';
+import { MyUpperPipe } from './pipes/myupper.pipe';
+import { HomeService } from './service/home.service';
+import { ListingComponent } from './listing/listing.component';
+import { LisitingService } from './service/lisiting.service';
+import { RestSearchPipe } from './pipes/search.pipe';
+import { CuisineFilterComponent } from './filters/cuisineFilter.component';
+import { CostFilterComponent } from './filters/costFilter.component';
+
+@NgModule({
+  /// all the component and pipe
+  declarations: [
+    AppComponent,
+    HeaderComponent,
+    FooterComponent,
+    HomeComponent,
+    SearchComponent,
+    QuickSearchComponent,
+    MyUpperPipe,
+    ListingComponent,
+    RestSearchPipe,
+    CuisineFilterComponent,
+    CostFilterComponent
+  ],
+  // all the modules
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    HttpClientModule,
+    FormsModule
+  ],
+  // all the services 
+  providers: [
+    HomeService,
+    LisitingService
+  ],
+  // only one component
+  bootstrap: [AppComponent]
+})
+export class AppModule { }

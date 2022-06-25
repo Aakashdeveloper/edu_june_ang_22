@@ -77,3 +77,23 @@ queryparams
 > Use for multiple values
 
 https://raw.githubusercontent.com/Aakashdeveloper/Aakashdeveloper/master/README.md
+
+
+filter;
+
+var a = [6,9,2,5,7,1,0]
+a.filter((data) => {return data>5})
+(3) [6, 9, 7]
+
+var city = ['Delhi', 'Mumbai', 'London', 'Amsterdam', 'Venice', 'Boston']
+city.indexOf('Delhi')
+0
+city.indexOf('Venice')
+4
+city.indexOf('Helsinki')
+-1
+city.indexOf('Pune')
+-1
+
+var a = 10
+a>10 ? "Hii":"Bie"
