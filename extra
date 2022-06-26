@@ -97,3 +97,9 @@ city.indexOf('Pune')
 
 var a = 10
 a>10 ? "Hii":"Bie"
+
+////////
+ng-dirty  ng-touched   ng-invalid
+ng-pristine ng-untouched ng-valid
+
+>>>npx json-server --watch data.json --port 7800
