@@ -121,3 +121,9 @@ ng-pristine ng-untouched ng-valid
 /******UserInfo*****/
 (GET) => https://developerjwt.herokuapp.com/api/auth/userinfo
 (Header) => {'x-access-token':'token value from login'}
+
+/////////////
+npm run build
+
+
+https://github.com/Aakashdeveloper/Angular-Interview-question
